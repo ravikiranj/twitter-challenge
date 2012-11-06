@@ -1,0 +1,25 @@
+{
+    'contributors': None
+    'truncated': False
+    'text': "If you're old enough to vote for the first time exercise your right today! It matters &amp; can change the world. Go vote: http://t.co/pNQ800vL"
+    'in_reply_to_status_id': None
+    'id': 265911739453956097
+    '_api': <tweepy.api.API object at 0x20b3850>
+    'author': <tweepy.models.User object at 0x20b3ed0>
+    'retweeted': False
+    'coordinates': None
+    'source': 'web'
+    'in_reply_to_screen_name': None
+    'id_str': '265911739453956097'
+    'retweet_count': 3730
+    'in_reply_to_user_id': None
+    'favorited': False
+    'source_url': None
+    'user': <tweepy.models.User object at 0x20b3ed0>
+    'geo': None
+    'in_reply_to_user_id_str': None
+    'possibly_sensitive': False
+    'created_at': datetime.datetime(2012, 11, 6, 20, 21, 13)
+    'in_reply_to_status_id_str': None
+    'place': None
+}

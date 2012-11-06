@@ -1,0 +1,40 @@
+{'follow_request_sent': False
+ 'profile_use_background_image': True
+ 'id': 295876983
+ '_api': <tweepy.api.API object at 0x1918910>
+ 'verified': False
+ 'profile_image_url_https': 'https://si0.twimg.com/profile_images/2528085119/av1w1m4oiwmi8gxd2hrz_normal.png'
+ 'profile_sidebar_fill_color': '252429'
+ 'is_translator': False
+ 'geo_enabled': False
+ 'profile_text_color': '666666'
+ 'followers_count': 101
+ 'protected': False
+ 'location': 'Westport CT - Manhattan NY'
+ 'default_profile_image': False
+ 'id_str': '295876983'
+ 'status': <tweepy.models.Status object at 0x19d15d0>
+ 'utc_offset': -21600
+ 'statuses_count': 541
+ 'description': 'connecticut prep turned nyc prepster '
+ 'friends_count': 105
+ 'profile_link_color': '236123'
+ 'profile_image_url': 'http://a0.twimg.com/profile_images/2528085119/av1w1m4oiwmi8gxd2hrz_normal.png'
+ 'notifications': False
+ 'profile_background_image_url_https': 'https://si0.twimg.com/profile_background_images/508881768/DSC_0356.JPG_copy.jpg'
+ 'profile_background_color': '1C1F1A'
+ 'profile_background_image_url': 'http://a0.twimg.com/profile_background_images/508881768/DSC_0356.JPG_copy.jpg'
+ 'screen_name': 'ajkieffer'
+ 'lang': 'en'
+ 'profile_background_tile': False
+ 'favourites_count': 13
+ 'name': 'AJ Kieffer'
+ 'url': 'http://www.facebook.com/aj.kieffer'
+ 'created_at': datetime.datetime(2011 5 9 20 23 24)
+ 'contributors_enabled': False
+ 'time_zone': 'Central Time (US & Canada)'
+ 'profile_sidebar_border_color': '181A1E'
+ 'default_profile': False
+ 'following': False
+ 'listed_count': 1}
+
