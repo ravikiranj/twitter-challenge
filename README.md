@@ -1,8 +1,10 @@
 twitter-challenge
 =================
-* Install <strong>python-setuptools</strong>
-<pre><code>sudo apt-get install python-setuptools</code></pre>
+1) Install python-setuptools
+sudo apt-get install python-setuptools
 
-* Install <strong>tweepy</strong> library
-<pre><code>sudo easy_install tweepy</code></pre>
+2) Install tweepy library
+sudo easy_install tweepy
 
+3) Install Python YQL
+sudo easy_install yql
