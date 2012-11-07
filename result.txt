@@ -110,3 +110,171 @@ T2
  'url': 'https://twitter.com/eliroth/status/263337293392261120',
  'userId': '61061751'}
 
+================================
+Example = 5
+================================
+T1
+================================
+{'createdAt': '2012-10-30 19:55:47',
+ 'creationTime': datetime.datetime(2012, 10, 30, 19, 55, 47),
+ 'followerCount': 10180177,
+ 'screenName': 'SnoopDogg',
+ 'statusId': 263368622116843521,
+ 'text': 'i got a show n la 2morrow nite @Eliroth, hold it down at @Goretorium @HarmonCorner elion!!',
+ 'toUserId': '61061751',
+ 'toUserScreenName': 'eliroth',
+ 'url': 'https://twitter.com/SnoopDogg/status/263368622116843521',
+ 'userId': 3004231}
+T2
+================================
+{'createdAt': '2012-10-30 17:51:17',
+ 'creationTime': datetime.datetime(2012, 10, 30, 17, 51, 17),
+ 'followerCount': 185952,
+ 'screenName': 'eliroth',
+ 'statusId': 263337293392261120,
+ 'text': "@SnoopLion #LaLaLa video's almost ready! Want to premiere it Halloween at  @Goretorium on world's biggest LED @HarmonCorner?",
+ 'toUserId': 3004231,
+ 'toUserScreenName': 'SnoopDogg',
+ 'url': 'https://twitter.com/eliroth/status/263337293392261120',
+ 'userId': '61061751'}
+
+================================
+Example = 6
+================================
+T1
+================================
+{'createdAt': '2012-11-02 18:26:30',
+ 'creationTime': datetime.datetime(2012, 11, 2, 18, 26, 30),
+ 'followerCount': 7847857,
+ 'screenName': 'Harry_Styles',
+ 'statusId': 264433319008145408,
+ 'text': "@grimmers @pixiegeldof1 @alexa_chung I will put it forward. Thank you. It's the dream.",
+ 'toUserId': '20054788',
+ 'toUserScreenName': 'grimmers',
+ 'url': 'https://twitter.com/Harry_Styles/status/264433319008145408',
+ 'userId': 181561712}
+T2
+================================
+{'createdAt': '2012-11-02 18:18:42',
+ 'creationTime': datetime.datetime(2012, 11, 2, 18, 18, 42),
+ 'followerCount': 645300,
+ 'screenName': 'grimmers',
+ 'statusId': 264431353276289024,
+ 'text': "@pixiegeldof1 @alexa_chung @harry_styles I third this. Also a Viva Forever live lounge wouldn't go a miss",
+ 'toUserId': 181561712,
+ 'toUserScreenName': 'Harry_Styles',
+ 'url': 'https://twitter.com/grimmers/status/264431353276289024',
+ 'userId': '20054788'}
+
+================================
+Example = 7
+================================
+T1
+================================
+{'createdAt': '2012-10-27 03:08:26',
+ 'creationTime': datetime.datetime(2012, 10, 27, 3, 8, 26),
+ 'followerCount': 7562334,
+ 'screenName': 'KourtneyKardash',
+ 'statusId': 262027953007898624,
+ 'text': '@KhloeKardashian shine bright like a diamond. And high like a hummingbird. GURL go drink your SHIRLey temple.',
+ 'toUserId': '32959253',
+ 'toUserScreenName': 'KhloeKardashian',
+ 'url': 'https://twitter.com/KourtneyKardash/status/262027953007898624',
+ 'userId': 23617610}
+T2
+================================
+{'createdAt': '2012-10-27 03:05:04',
+ 'creationTime': datetime.datetime(2012, 10, 27, 3, 5, 4),
+ 'followerCount': 7749008,
+ 'screenName': 'KhloeKardashian',
+ 'statusId': 262027105724940288,
+ 'text': "That's what's up @KourtneyKardash shining so bright your going to need shades!!! Fly high baby guuurrrllll",
+ 'toUserId': 23617610,
+ 'toUserScreenName': 'KourtneyKardash',
+ 'url': 'https://twitter.com/KhloeKardashian/status/262027105724940288',
+ 'userId': '32959253'}
+
+================================
+Example = 8
+================================
+T1
+================================
+{'createdAt': '2012-10-27 02:58:20',
+ 'creationTime': datetime.datetime(2012, 10, 27, 2, 58, 20),
+ 'followerCount': 7562334,
+ 'screenName': 'KourtneyKardash',
+ 'statusId': 262025409707798528,
+ 'text': '@KhloeKardashian now u are taking it too far. I am a mother with two babies. Fraggle!',
+ 'toUserId': '32959253',
+ 'toUserScreenName': 'KhloeKardashian',
+ 'url': 'https://twitter.com/KourtneyKardash/status/262025409707798528',
+ 'userId': 23617610}
+T2
+================================
+{'createdAt': '2012-10-27 02:56:14',
+ 'creationTime': datetime.datetime(2012, 10, 27, 2, 56, 14),
+ 'followerCount': 7749008,
+ 'screenName': 'KhloeKardashian',
+ 'statusId': 262024880285958144,
+ 'text': '@KourtneyKardash snaggle rock rattle and roll that puss',
+ 'toUserId': 23617610,
+ 'toUserScreenName': 'KourtneyKardash',
+ 'url': 'https://twitter.com/KhloeKardashian/status/262024880285958144',
+ 'userId': '32959253'}
+
+================================
+Example = 9
+================================
+T1
+================================
+{'createdAt': '2012-10-27 02:50:29',
+ 'creationTime': datetime.datetime(2012, 10, 27, 2, 50, 29),
+ 'followerCount': 7562334,
+ 'screenName': 'KourtneyKardash',
+ 'statusId': 262023433653727232,
+ 'text': "@KhloeKardashian That's it for Bob. I've had it with him. And gaggle puss. That's the last straw.I'm sending in the troops to go after them.",
+ 'toUserId': '32959253',
+ 'toUserScreenName': 'KhloeKardashian',
+ 'url': 'https://twitter.com/KourtneyKardash/status/262023433653727232',
+ 'userId': 23617610}
+T2
+================================
+{'createdAt': '2012-10-27 02:47:24',
+ 'creationTime': datetime.datetime(2012, 10, 27, 2, 47, 24),
+ 'followerCount': 7749008,
+ 'screenName': 'KhloeKardashian',
+ 'statusId': 262022658915442690,
+ 'text': '@KourtneyKardash tell gaggle puss ill f her up! Her and Bob will be screwed',
+ 'toUserId': 23617610,
+ 'toUserScreenName': 'KourtneyKardash',
+ 'url': 'https://twitter.com/KhloeKardashian/status/262022658915442690',
+ 'userId': '32959253'}
+
+================================
+Example = 10
+================================
+T1
+================================
+{'createdAt': '2012-10-27 02:44:48',
+ 'creationTime': datetime.datetime(2012, 10, 27, 2, 44, 48),
+ 'followerCount': 7562334,
+ 'screenName': 'KourtneyKardash',
+ 'statusId': 262022002259423232,
+ 'text': '@KhloeKardashian seriously!! I feel u woman. @KimKardashian needs to get her paws off your hummingbirds! Take it to the house.',
+ 'toUserId': '32959253',
+ 'toUserScreenName': 'KhloeKardashian',
+ 'url': 'https://twitter.com/KourtneyKardash/status/262022002259423232',
+ 'userId': 23617610}
+T2
+================================
+{'createdAt': '2012-10-27 02:42:27',
+ 'creationTime': datetime.datetime(2012, 10, 27, 2, 42, 27),
+ 'followerCount': 7749008,
+ 'screenName': 'KhloeKardashian',
+ 'statusId': 262021414452858883,
+ 'text': '@KourtneyKardash @KimKardashian Kim can be such a bitch!!! Don\'t you dare touch my "tickle me nuts hummingbirds"!!!! Go flick a dick',
+ 'toUserId': 23617610,
+ 'toUserScreenName': 'KourtneyKardash',
+ 'url': 'https://twitter.com/KhloeKardashian/status/262021414452858883',
+ 'userId': '32959253'}
+

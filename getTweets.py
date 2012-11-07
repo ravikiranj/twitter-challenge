@@ -23,7 +23,7 @@ converseCount = 1
 #Exit Flag
 exitFlag = 0
 #maxCount
-maxCount = 4
+maxCount = 10 
 
 #Write results to file
 #Get existing conversation count in result file
@@ -116,7 +116,7 @@ for topUser in topUserList:
                    and (e.response.status == 400 or e.response.status == 401)):
                     #Exit -> Rate limit exceeded or bad request
                     #Get next user
-                    if(topUserIndex < len(topUser)-1):
+                    if(topUserIndex < len(topUserList)-1):
                         topUserIndex += 1
                     writeCurrUser.write(str(topUserIndex))
                     writeCurrUser.close()
@@ -184,7 +184,7 @@ print "Successfully found %d conversations" % (maxCount)
 print "Output written to %s" % (resultFileName)
 print "Done"
 #Save current user
-if(topUserIndex < len(topUser)-1):
+if(topUserIndex < len(topUserList)-1):
     topUserIndex += 1
 writeCurrUser.write(str(topUserIndex))
 writeCurrUser.close()
