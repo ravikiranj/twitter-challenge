@@ -31,9 +31,11 @@ finds 10 such coversations.
 
 The output of the program is written to "result.txt" which consists of details of tweets T1 and T2. 
 
+A detailed explanation of how the problem was solved is listed in "Solution.pdf"
+
 7) Sample Output and Console Output
 *************************************
 The sample output of the program can be found in "result.txt" and the logged console output can be found in "consoleOutput.txt".
 When API rate limit is reached, the state is saved in "currUserIndex.txt".
 
-A detailed explanation of how the problem was solved is listed in "Solution.pdf"
+
