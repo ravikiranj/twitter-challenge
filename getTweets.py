@@ -23,7 +23,7 @@ converseCount = 1
 #Exit Flag
 exitFlag = 0
 #maxCount
-maxCount = 2
+maxCount = 4
 
 #Write results to file
 #Get existing conversation count in result file
@@ -58,13 +58,15 @@ for topUser in topUserList:
         origUser = twitter.get_user(topUser)
     except tweepy.TweepError, e:
         print "Exception = %s" % (e)
-        if(hasattr(e, 'response') and hasattr(e.response, 'status') and (e.response.status == 400 or e.response.status == 401)):
+        if(hasattr(e, 'response') and hasattr(e.response, 'status') and \
+           (e.response.status == 400 or e.response.status == 401)):
             #Exit -> Rate limit exceeded or bad request
             writeCurrUser.write(str(topUserIndex))
             writeCurrUser.close()
             result.close()
             print "HTTP Status Code = %d" % (e.response.status)
-            print "Intermediate result written to result.txt, please resume after an hour if rate limit was exceeded or use different credentials"
+            print "Intermediate result written to %s, please resume after an hour if rate limit was exceeded \
+                   or use different credentials" % (resultFileName)
             sys.exit(1)
         else:
             exceptionFlag = 1
@@ -109,7 +111,8 @@ for topUser in topUserList:
                 origTweet = twitter.get_status(t2['statusId'])
             except tweepy.TweepError, e:
                 print "Exception = %s" % (e)
-                if(hasattr(e, 'response') and hasattr(e.response, 'status') and (e.response.status == 400 or e.response.status == 401)):
+                if(hasattr(e, 'response') and hasattr(e.response, 'status') \
+                   and (e.response.status == 400 or e.response.status == 401)):
                     #Exit -> Rate limit exceeded or bad request
                     #Get next user
                     if(topUserIndex < len(topUser)-1):
@@ -118,7 +121,8 @@ for topUser in topUserList:
                     writeCurrUser.close()
                     result.close()
                     print "HTTP Status Code = %d" % (e.response.status)
-                    print "Intermediate result written to result.txt, please resume after an hour if rate limit was exceeded or use different credentials"
+                    print "Intermediate result written to %s, please resume after an hour if rate \
+                           limit was exceeded or use different credentials" % (resultFileName)
                     sys.exit(1)
                 else:
                     exceptionFlag = 1
@@ -175,6 +179,7 @@ for topUser in topUserList:
         break
 #end outer loop
 print "Successfully found %d conversations" % (maxCount)
+print "Output written to %s" % (resultFileName)
 print "Done"
 #Save current user
 if(topUserIndex < len(topUser)-1):

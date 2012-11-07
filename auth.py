@@ -9,11 +9,11 @@ DEBUG = 0
 #start getAPIHandle
 class getAPIHandle:
     def __init__(self):
-        #credFileName = "keys/credentials.key"
+        credFileName = "keys/credentials.key"
         #credFileName = "keys/credentials2.key"
         #credFileName = "keys/credentials3.key"
         #credFileName = "keys/credentials4.key"
-        credFileName = "keys/credentials5.key"
+        #credFileName = "keys/credentials5.key"
         #credFileName = "keys/credentials6.key"
         credFile = open(credFileName, "r")
         self.api = None
