@@ -278,3 +278,59 @@ T2
  'url': 'https://twitter.com/KhloeKardashian/status/262021414452858883',
  'userId': '32959253'}
 
+================================
+Example No = 11
+================================
+T1
+================================
+{'createdAt': '2012-10-26 20:18:22',
+ 'creationTime': datetime.datetime(2012, 10, 26, 20, 18, 22),
+ 'followerCount': 7426178,
+ 'screenName': 'ricky_martin',
+ 'statusId': 261924755429527553,
+ 'text': '@zoesaldana igualmente beba! Have a great weekend. Besos! Paz!',
+ 'toUserId': '102278356',
+ 'toUserScreenName': 'zoesaldana',
+ 'url': 'https://twitter.com/ricky_martin/status/261924755429527553',
+ 'userId': 40255499}
+T2
+================================
+{'createdAt': '2012-10-26 20:15:47',
+ 'creationTime': datetime.datetime(2012, 10, 26, 20, 15, 47),
+ 'followerCount': 363064,
+ 'screenName': 'zoesaldana',
+ 'statusId': 261924103404011523,
+ 'text': '@ricky_martin @RMrockz #FF !!! Yes! Happy Viernes ! :) http://t.co/mJNjHlQ8',
+ 'toUserId': 40255499,
+ 'toUserScreenName': 'ricky_martin',
+ 'url': 'https://twitter.com/zoesaldana/status/261924103404011523',
+ 'userId': '102278356'}
+
+================================
+Example No = 12
+================================
+T1
+================================
+{'createdAt': '2012-10-30 20:09:24',
+ 'creationTime': datetime.datetime(2012, 10, 30, 20, 9, 24),
+ 'followerCount': 7374388,
+ 'screenName': 'NiallOfficial',
+ 'statusId': 263372048687058944,
+ 'text': '@_Emma_Horan_ go on emma! Ya mad yoke!when ya comin over here!',
+ 'toUserId': '224447117',
+ 'toUserScreenName': '_Emma_Horan_',
+ 'url': 'https://twitter.com/NiallOfficial/status/263372048687058944',
+ 'userId': 105119490}
+T2
+================================
+{'createdAt': '2012-10-30 20:06:23',
+ 'creationTime': datetime.datetime(2012, 10, 30, 20, 6, 23),
+ 'followerCount': 133068,
+ 'screenName': '_Emma_Horan_',
+ 'statusId': 263371289954246657,
+ 'text': '@NiallOfficial Have fun!! Enjoy every min of it!! :) Yeaaaaaaaaaaaaaaaaaah Buddyyyyyyyyy',
+ 'toUserId': 105119490,
+ 'toUserScreenName': 'NiallOfficial',
+ 'url': 'https://twitter.com/_Emma_Horan_/status/263371289954246657',
+ 'userId': '224447117'}
+

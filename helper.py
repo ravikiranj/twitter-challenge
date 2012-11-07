@@ -33,10 +33,10 @@ class helper:
         if(os.path.exists(fileName)):
             for line in open(fileName, "r"):
                 line = line.rstrip()
-                if(re.match('Example = ', line)):
+                if(re.match('Example No = ', line)):
                     splitArr = line.split(' ')
-                    if(len(splitArr) > 2):
-                        newIndex = int(splitArr[2])
+                    if(len(splitArr) > 3):
+                        newIndex = int(splitArr[3])
                         currIndex = newIndex
         return currIndex
     

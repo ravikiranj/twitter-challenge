@@ -23,7 +23,7 @@ converseCount = 1
 #Exit Flag
 exitFlag = 0
 #maxCount
-maxCount = 10 
+maxCount = 12 
 
 #Write results to file
 #Get existing conversation count in result file
