@@ -1,0 +1,196 @@
+================================
+Example = 1
+================================
+T1
+================================
+{'createdAt': '2012-10-29 22:22:51',
+ 'creationTime': datetime.datetime(2012, 10, 29, 22, 22, 51),
+ 'followerCount': 30980104,
+ 'screenName': 'ladygaga',
+ 'statusId': 263043243992834048,
+ 'text': 'No fear were all good @zedd miss u buddy been listening to **rq* all day.',
+ 'toUserId': '155705264',
+ 'toUserScreenName': 'Zedd',
+ 'url': 'https://twitter.com/ladygaga/status/263043243992834048',
+ 'userId': 14230524}
+T2
+================================
+{'createdAt': '2012-10-29 19:03:42',
+ 'creationTime': datetime.datetime(2012, 10, 29, 19, 3, 42),
+ 'followerCount': 167023,
+ 'screenName': 'Zedd',
+ 'statusId': 262993129806909440,
+ 'text': "@ladygaga @CalvinHarris I love you both!!! Let's all hug and have a drink! shave it up!!!!!",
+ 'toUserId': 14230524,
+ 'toUserScreenName': 'ladygaga',
+ 'url': 'https://twitter.com/Zedd/status/262993129806909440',
+ 'userId': '155705264'}
+
+================================
+Example = 2
+================================
+T1
+================================
+{'createdAt': '2012-10-29 16:10:15',
+ 'creationTime': datetime.datetime(2012, 10, 29, 16, 10, 15),
+ 'followerCount': 30980104,
+ 'screenName': 'ladygaga',
+ 'statusId': 262949477441228800,
+ 'text': '@CalvinHarris thanks for the apology &amp;explaining. My apologies too. Congratulations on your album. Wish you well. Cheers.',
+ 'toUserId': '18625669',
+ 'toUserScreenName': 'CalvinHarris',
+ 'url': 'https://twitter.com/ladygaga/status/262949477441228800',
+ 'userId': 14230524}
+T2
+================================
+{'createdAt': '2012-10-29 15:40:46',
+ 'creationTime': datetime.datetime(2012, 10, 29, 15, 40, 46),
+ 'followerCount': 1629545,
+ 'screenName': 'CalvinHarris',
+ 'statusId': 262942058669539328,
+ 'text': "@ladygaga no your label emailed me. I always make sure I say Im a fan when asked about it, I apologise if I offended u, wasn't the intention",
+ 'toUserId': 14230524,
+ 'toUserScreenName': 'ladygaga',
+ 'url': 'https://twitter.com/CalvinHarris/status/262942058669539328',
+ 'userId': '18625669'}
+
+================================
+Example = 1
+================================
+T1
+================================
+{'createdAt': '2012-10-29 22:22:51',
+ 'creationTime': datetime.datetime(2012, 10, 29, 22, 22, 51),
+ 'followerCount': 30980433,
+ 'screenName': 'ladygaga',
+ 'statusId': 263043243992834048,
+ 'text': 'No fear were all good @zedd miss u buddy been listening to **rq* all day.',
+ 'toUserId': '155705264',
+ 'toUserScreenName': 'Zedd',
+ 'url': 'https://twitter.com/ladygaga/status/263043243992834048',
+ 'userId': 14230524}
+T2
+================================
+{'createdAt': '2012-10-29 19:03:42',
+ 'creationTime': datetime.datetime(2012, 10, 29, 19, 3, 42),
+ 'followerCount': 167026,
+ 'screenName': 'Zedd',
+ 'statusId': 262993129806909440,
+ 'text': "@ladygaga @CalvinHarris I love you both!!! Let's all hug and have a drink! shave it up!!!!!",
+ 'toUserId': 14230524,
+ 'toUserScreenName': 'ladygaga',
+ 'url': 'https://twitter.com/Zedd/status/262993129806909440',
+ 'userId': '155705264'}
+
+================================
+Example = 2
+================================
+T1
+================================
+{'createdAt': '2012-10-29 16:10:15',
+ 'creationTime': datetime.datetime(2012, 10, 29, 16, 10, 15),
+ 'followerCount': 30980433,
+ 'screenName': 'ladygaga',
+ 'statusId': 262949477441228800,
+ 'text': '@CalvinHarris thanks for the apology &amp;explaining. My apologies too. Congratulations on your album. Wish you well. Cheers.',
+ 'toUserId': '18625669',
+ 'toUserScreenName': 'CalvinHarris',
+ 'url': 'https://twitter.com/ladygaga/status/262949477441228800',
+ 'userId': 14230524}
+T2
+================================
+{'createdAt': '2012-10-29 15:40:46',
+ 'creationTime': datetime.datetime(2012, 10, 29, 15, 40, 46),
+ 'followerCount': 1629575,
+ 'screenName': 'CalvinHarris',
+ 'statusId': 262942058669539328,
+ 'text': "@ladygaga no your label emailed me. I always make sure I say Im a fan when asked about it, I apologise if I offended u, wasn't the intention",
+ 'toUserId': 14230524,
+ 'toUserScreenName': 'ladygaga',
+ 'url': 'https://twitter.com/CalvinHarris/status/262942058669539328',
+ 'userId': '18625669'}
+
+================================
+Example = 3
+================================
+T1
+================================
+{'createdAt': '2012-11-02 23:33:06',
+ 'creationTime': datetime.datetime(2012, 11, 2, 23, 33, 6),
+ 'followerCount': 29872192,
+ 'screenName': 'justinbieber',
+ 'statusId': 264510477076426752,
+ 'text': '@AlfredoFlores @scooterbraun yep. i was ballin. :)',
+ 'toUserId': '19743731',
+ 'toUserScreenName': 'AlfredoFlores',
+ 'url': 'https://twitter.com/justinbieber/status/264510477076426752',
+ 'userId': 27260086}
+T2
+================================
+{'createdAt': '2012-11-02 19:14:38',
+ 'creationTime': datetime.datetime(2012, 11, 2, 19, 14, 38),
+ 'followerCount': 1160205,
+ 'screenName': 'AlfredoFlores',
+ 'statusId': 264445431759663105,
+ 'text': '@justinbieber still has his jumper. @scooterbraun would be proud.',
+ 'toUserId': 27260086,
+ 'toUserScreenName': 'justinbieber',
+ 'url': 'https://twitter.com/AlfredoFlores/status/264445431759663105',
+ 'userId': '19743731'}
+
+================================
+Example = 4
+================================
+T1
+================================
+{'createdAt': '2012-10-30 19:55:47',
+ 'creationTime': datetime.datetime(2012, 10, 30, 19, 55, 47),
+ 'followerCount': 10179626,
+ 'screenName': 'SnoopDogg',
+ 'statusId': 263368622116843521,
+ 'text': 'i got a show n la 2morrow nite @Eliroth, hold it down at @Goretorium @HarmonCorner elion!!',
+ 'toUserId': '61061751',
+ 'toUserScreenName': 'eliroth',
+ 'url': 'https://twitter.com/SnoopDogg/status/263368622116843521',
+ 'userId': 3004231}
+T2
+================================
+{'createdAt': '2012-10-30 17:51:17',
+ 'creationTime': datetime.datetime(2012, 10, 30, 17, 51, 17),
+ 'followerCount': 185937,
+ 'screenName': 'eliroth',
+ 'statusId': 263337293392261120,
+ 'text': "@SnoopLion #LaLaLa video's almost ready! Want to premiere it Halloween at  @Goretorium on world's biggest LED @HarmonCorner?",
+ 'toUserId': 3004231,
+ 'toUserScreenName': 'SnoopDogg',
+ 'url': 'https://twitter.com/eliroth/status/263337293392261120',
+ 'userId': '61061751'}
+
+================================
+Example = 5
+================================
+T1
+================================
+{'createdAt': '2012-11-02 18:26:30',
+ 'creationTime': datetime.datetime(2012, 11, 2, 18, 26, 30),
+ 'followerCount': 7846045,
+ 'screenName': 'Harry_Styles',
+ 'statusId': 264433319008145408,
+ 'text': "@grimmers @pixiegeldof1 @alexa_chung I will put it forward. Thank you. It's the dream.",
+ 'toUserId': '20054788',
+ 'toUserScreenName': 'grimmers',
+ 'url': 'https://twitter.com/Harry_Styles/status/264433319008145408',
+ 'userId': 181561712}
+T2
+================================
+{'createdAt': '2012-11-02 18:18:42',
+ 'creationTime': datetime.datetime(2012, 11, 2, 18, 18, 42),
+ 'followerCount': 645061,
+ 'screenName': 'grimmers',
+ 'statusId': 264431353276289024,
+ 'text': "@pixiegeldof1 @alexa_chung @harry_styles I third this. Also a Viva Forever live lounge wouldn't go a miss",
+ 'toUserId': 181561712,
+ 'toUserScreenName': 'Harry_Styles',
+ 'url': 'https://twitter.com/grimmers/status/264431353276289024',
+ 'userId': '20054788'}
+
