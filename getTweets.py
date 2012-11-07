@@ -23,7 +23,7 @@ converseCount = 1
 #Exit Flag
 exitFlag = 0
 #maxCount
-maxCount = 12 
+maxCount = 10 
 
 #Write results to file
 #Get existing conversation count in result file
@@ -43,8 +43,15 @@ currUserIndex = h.getCurrUserIndex(currUserIndexFileName)
 
 writeCurrUser = open(currUserIndexFileName, "w")
 
+#skip ladygaga [she replies loyally to all her unknown fans :)]
+skipGaga = 1
+
 #For each top user, get 100 status messages posted by user (will look for more if ten not found)
 for topUser in topUserList:
+    #Skip ladygaga
+    if(skipGaga == 1 and topUser == "@ladygaga"):
+        continue
+
     topUserIndex = topUserList.index(topUser)
     exceptionFlag = 0
     
@@ -65,15 +72,14 @@ for topUser in topUserList:
             writeCurrUser.close()
             result.close()
             print "HTTP Status Code = %d" % (e.response.status)
-            print "Intermediate result written to %s, please resume after an hour if rate limit was exceeded \
-                   or use different credentials" % (resultFileName)
+            print "Intermediate result written to %s, please resume after an hour if rate limit was exceeded or use different credentials (modify auth.py)" % (resultFileName)
             sys.exit(1)
         else:
             #Sometimes resources were not found or lacked permission to fetch protected account, skip these
             exceptionFlag = 1
             pass
         
-    print "Current User = %s" % (origUser.screen_name)   
+    print "Current User = %s, Rank = %d, No. of followers = %d" % (origUser.screen_name, topUserIndex+1, origUser.followers_count)   
     #Update current user on console immediately
     sys.stdout.flush()
     
@@ -122,8 +128,7 @@ for topUser in topUserList:
                     writeCurrUser.close()
                     result.close()
                     print "HTTP Status Code = %d" % (e.response.status)
-                    print "Intermediate result written to %s, please resume after an hour if rate \
-                           limit was exceeded or use different credentials" % (resultFileName)
+                    print "Intermediate result written to %s, please resume after an hour if rate limit was exceeded or use different credentials (modify auth.py)" % (resultFileName)
                     sys.exit(1)
                 else:
                     #Sometimes resources were not found or lacked permission to fetch protected account, skip these
@@ -161,6 +166,7 @@ for topUser in topUserList:
                     result.write("================================\n")
                     pprint.pprint(t1, result)
                     
+                    result.write("================================\n")
                     result.write("T2\n")
                     result.write("================================\n")
                     pprint.pprint(t2, result)
