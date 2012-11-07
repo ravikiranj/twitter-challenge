@@ -155,7 +155,7 @@ for topUser in topUserList:
                 if(t2['followerCount'] > 125000 and t1['followerCount'] > 1000000):
                     #Print the conversation if condition satisfied
                     result.write("================================\n")
-                    result.write("Example = %d\n" % (converseCount))
+                    result.write("Example No = %d\n" % (converseCount))
                     result.write("================================\n")
                     result.write("T1\n")
                     result.write("================================\n")
