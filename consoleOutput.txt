@@ -1,0 +1,92 @@
+[ravikirn@rk-dell-xps twitter-challenge]# python getTweets.py
+Current User = ladygaga, Rank = 1, No. of followers = 31001814
+Current User = justinbieber, Rank = 2, No. of followers = 29894146
+Current User = katyperry, Rank = 3, No. of followers = 28692214
+Current User = rihanna, Rank = 4, No. of followers = 26574621
+Current User = BarackObama, Rank = 5, No. of followers = 22686886
+Current User = britneyspears, Rank = 6, No. of followers = 21672394
+Current User = taylorswift13, Rank = 7, No. of followers = 20479786
+Current User = YouTube, Rank = 8, No. of followers = 19165649
+Current User = shakira, Rank = 9, No. of followers = 18628862
+Current User = KimKardashian, Rank = 10, No. of followers = 16555173
+Current User = NICKIMINAJ, Rank = 11, No. of followers = 14892707
+Current User = Oprah, Rank = 12, No. of followers = 14690173
+Exception = [{'message': 'Sorry, that page does not exist', 'code': 34}]
+Exception = [{'message': 'Sorry, that page does not exist', 'code': 34}]
+Current User = jtimberlake, Rank = 13, No. of followers = 14503044
+Current User = TheEllenShow, Rank = 14, No. of followers = 14480973
+Current User = twitter, Rank = 15, No. of followers = 14303780
+Current User = Cristiano, Rank = 16, No. of followers = 14286747
+Current User = KAKA, Rank = 17, No. of followers = 13404047
+Current User = selenagomez, Rank = 18, No. of followers = 12993285
+Current User = aplusk, Rank = 19, No. of followers = 12932861
+Current User = Eminem, Rank = 20, No. of followers = 12869118
+Current User = BrunoMars, Rank = 21, No. of followers = 12862222
+Current User = JLo, Rank = 22, No. of followers = 12660995
+Current User = Pink, Rank = 23, No. of followers = 11645614
+Current User = chrisbrown, Rank = 24, No. of followers = 11569166
+Current User = instagram, Rank = 25, No. of followers = 11506665
+Current User = twitter_es, Rank = 26, No. of followers = 10557825
+Current User = OfficialAdele, Rank = 27, No. of followers = 10482247
+Current User = ddlovato, Rank = 28, No. of followers = 10208854
+Current User = SnoopDogg, Rank = 29, No. of followers = 10185441
+Current User = MileyCyrus, Rank = 30, No. of followers = 10089021
+Exception = [{'message': 'Sorry, that page does not exist', 'code': 34}]
+Current User = aliciakeys, Rank = 31, No. of followers = 9964326
+Current User = Drake, Rank = 32, No. of followers = 9428807
+Current User = JimCarrey, Rank = 33, No. of followers = 9350461
+Current User = cnnbrk, Rank = 34, No. of followers = 9284861
+Current User = ParisHilton, Rank = 35, No. of followers = 9080952
+Current User = iamdiddy, Rank = 36, No. of followers = 9010948
+Current User = LilTunechi, Rank = 37, No. of followers = 8998623
+Current User = kanyewest, Rank = 38, No. of followers = 8770791
+Current User = BillGates, Rank = 39, No. of followers = 8745900
+Current User = coldplay, Rank = 40, No. of followers = 8718716
+Current User = UberSoc, Rank = 41, No. of followers = 8604281
+Exception = [{'message': 'Sorry, that page does not exist', 'code': 34}]
+Exception = Sorry, you are not authorized to see this status.
+Current User = charliesheen, Rank = 42, No. of followers = 8404574
+Current User = TwitPic, Rank = 43, No. of followers = 8307801
+Current User = MariahCarey, Rank = 44, No. of followers = 8262130
+Current User = ashleytisdale, Rank = 45, No. of followers = 8236927
+Exception = [{'message': 'Sorry, that page does not exist', 'code': 34}]
+Current User = RealWizKhalifa, Rank = 46, No. of followers = 8173219
+Exception = [{'message': 'Sorry, that page does not exist', 'code': 34}]
+Current User = RyanSeacrest, Rank = 47, No. of followers = 8154816
+Current User = 50cent, Rank = 48, No. of followers = 8093102
+Current User = Harry_Styles, Rank = 49, No. of followers = 7855472
+Exception = [{'message': 'Sorry, that page does not exist', 'code': 34}]
+Current User = KhloeKardashian, Rank = 50, No. of followers = 7750565
+Exception = [{'message': 'Sorry, that page does not exist', 'code': 34}]
+Current User = onedirection, Rank = 51, No. of followers = 7623361
+Current User = KourtneyKardash, Rank = 52, No. of followers = 7564931
+Current User = AlejandroSanz, Rank = 53, No. of followers = 7523810
+Exception = Rate limit exceeded. Clients may not make more than 350 requests per hour.
+HTTP Status Code = 400
+Intermediate result written to result.txt, please resume after an hour if rate limit was exceeded or use different credentials (modify auth.py)
+
+***** Modify auth.py and change credentials AND change IP if required *****
+[ravikirn@rk-dell-xps twitter-challenge]# python getTweets.py
+Current User = Pitbull, Rank = 54, No. of followers = 7511452
+Current User = ricky_martin, Rank = 55, No. of followers = 7429505
+Current User = tyrabanks, Rank = 56, No. of followers = 7397950
+Current User = NiallOfficial, Rank = 57, No. of followers = 7383268
+Current User = FCBarcelona, Rank = 58, No. of followers = 7282935
+Current User = ivetesangalo, Rank = 59, No. of followers = 7213340
+Current User = programapanico, Rank = 60, No. of followers = 7166830
+Current User = danieltosh, Rank = 61, No. of followers = 7108847
+Current User = AvrilLavigne, Rank = 62, No. of followers = 7073176
+Current User = ConanOBrien, Rank = 63, No. of followers = 7037484
+Current User = jimmyfallon, Rank = 64, No. of followers = 6871687
+Current User = Real_Liam_Payne, Rank = 65, No. of followers = 6866199
+Current User = davidguetta, Rank = 66, No. of followers = 6702937
+Current User = Louis_Tomlinson, Rank = 67, No. of followers = 6683952
+Current User = juanes, Rank = 68, No. of followers = 6494742
+Current User = nytimes, Rank = 69, No. of followers = 6503326
+Current User = KingJames, Rank = 70, No. of followers = 6448029
+Current User = CNN, Rank = 71, No. of followers = 6461783
+Current User = Beyonce, Rank = 72, No. of followers = 6437129
+Current User = SHAQ, Rank = 73, No. of followers = 6405558
+Successfully found 10 conversations
+Output written to result.txt
+Done

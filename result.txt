@@ -5,7 +5,7 @@ T1
 ================================
 {'createdAt': '2012-11-02 23:33:06',
  'creationTime': datetime.datetime(2012, 11, 2, 23, 33, 6),
- 'followerCount': 29878453,
+ 'followerCount': 29894146,
  'screenName': 'justinbieber',
  'statusId': 264510477076426752,
  'text': '@AlfredoFlores @scooterbraun yep. i was ballin. :)',
@@ -18,7 +18,7 @@ T2
 ================================
 {'createdAt': '2012-11-02 19:14:38',
  'creationTime': datetime.datetime(2012, 11, 2, 19, 14, 38),
- 'followerCount': 1160707,
+ 'followerCount': 1161231,
  'screenName': 'AlfredoFlores',
  'statusId': 264445431759663105,
  'text': '@justinbieber still has his jumper. @scooterbraun would be proud.',
@@ -34,7 +34,7 @@ T1
 ================================
 {'createdAt': '2012-10-30 19:55:47',
  'creationTime': datetime.datetime(2012, 10, 30, 19, 55, 47),
- 'followerCount': 10181930,
+ 'followerCount': 10185441,
  'screenName': 'SnoopDogg',
  'statusId': 263368622116843521,
  'text': 'i got a show n la 2morrow nite @Eliroth, hold it down at @Goretorium @HarmonCorner elion!!',
@@ -47,7 +47,7 @@ T2
 ================================
 {'createdAt': '2012-10-30 17:51:17',
  'creationTime': datetime.datetime(2012, 10, 30, 17, 51, 17),
- 'followerCount': 185957,
+ 'followerCount': 185995,
  'screenName': 'eliroth',
  'statusId': 263337293392261120,
  'text': "@SnoopLion #LaLaLa video's almost ready! Want to premiere it Halloween at  @Goretorium on world's biggest LED @HarmonCorner?",
@@ -63,7 +63,7 @@ T1
 ================================
 {'createdAt': '2012-11-02 18:26:30',
  'creationTime': datetime.datetime(2012, 11, 2, 18, 26, 30),
- 'followerCount': 7848869,
+ 'followerCount': 7855472,
  'screenName': 'Harry_Styles',
  'statusId': 264433319008145408,
  'text': "@grimmers @pixiegeldof1 @alexa_chung I will put it forward. Thank you. It's the dream.",
@@ -76,7 +76,7 @@ T2
 ================================
 {'createdAt': '2012-11-02 18:18:42',
  'creationTime': datetime.datetime(2012, 11, 2, 18, 18, 42),
- 'followerCount': 645503,
+ 'followerCount': 647490,
  'screenName': 'grimmers',
  'statusId': 264431353276289024,
  'text': "@pixiegeldof1 @alexa_chung @harry_styles I third this. Also a Viva Forever live lounge wouldn't go a miss",
@@ -92,7 +92,7 @@ T1
 ================================
 {'createdAt': '2012-10-27 03:08:26',
  'creationTime': datetime.datetime(2012, 10, 27, 3, 8, 26),
- 'followerCount': 7562976,
+ 'followerCount': 7564931,
  'screenName': 'KourtneyKardash',
  'statusId': 262027953007898624,
  'text': '@KhloeKardashian shine bright like a diamond. And high like a hummingbird. GURL go drink your SHIRLey temple.',
@@ -105,7 +105,7 @@ T2
 ================================
 {'createdAt': '2012-10-27 03:05:04',
  'creationTime': datetime.datetime(2012, 10, 27, 3, 5, 4),
- 'followerCount': 7749420,
+ 'followerCount': 7750565,
  'screenName': 'KhloeKardashian',
  'statusId': 262027105724940288,
  'text': "That's what's up @KourtneyKardash shining so bright your going to need shades!!! Fly high baby guuurrrllll",
@@ -121,7 +121,7 @@ T1
 ================================
 {'createdAt': '2012-10-27 02:58:20',
  'creationTime': datetime.datetime(2012, 10, 27, 2, 58, 20),
- 'followerCount': 7562976,
+ 'followerCount': 7564931,
  'screenName': 'KourtneyKardash',
  'statusId': 262025409707798528,
  'text': '@KhloeKardashian now u are taking it too far. I am a mother with two babies. Fraggle!',
@@ -134,7 +134,7 @@ T2
 ================================
 {'createdAt': '2012-10-27 02:56:14',
  'creationTime': datetime.datetime(2012, 10, 27, 2, 56, 14),
- 'followerCount': 7749420,
+ 'followerCount': 7750565,
  'screenName': 'KhloeKardashian',
  'statusId': 262024880285958144,
  'text': '@KourtneyKardash snaggle rock rattle and roll that puss',
@@ -150,7 +150,7 @@ T1
 ================================
 {'createdAt': '2012-10-27 02:50:29',
  'creationTime': datetime.datetime(2012, 10, 27, 2, 50, 29),
- 'followerCount': 7562976,
+ 'followerCount': 7564931,
  'screenName': 'KourtneyKardash',
  'statusId': 262023433653727232,
  'text': "@KhloeKardashian That's it for Bob. I've had it with him. And gaggle puss. That's the last straw.I'm sending in the troops to go after them.",
@@ -163,7 +163,7 @@ T2
 ================================
 {'createdAt': '2012-10-27 02:47:24',
  'creationTime': datetime.datetime(2012, 10, 27, 2, 47, 24),
- 'followerCount': 7749420,
+ 'followerCount': 7750565,
  'screenName': 'KhloeKardashian',
  'statusId': 262022658915442690,
  'text': '@KourtneyKardash tell gaggle puss ill f her up! Her and Bob will be screwed',
@@ -179,7 +179,7 @@ T1
 ================================
 {'createdAt': '2012-10-27 02:44:48',
  'creationTime': datetime.datetime(2012, 10, 27, 2, 44, 48),
- 'followerCount': 7562976,
+ 'followerCount': 7564931,
  'screenName': 'KourtneyKardash',
  'statusId': 262022002259423232,
  'text': '@KhloeKardashian seriously!! I feel u woman. @KimKardashian needs to get her paws off your hummingbirds! Take it to the house.',
@@ -192,7 +192,7 @@ T2
 ================================
 {'createdAt': '2012-10-27 02:42:27',
  'creationTime': datetime.datetime(2012, 10, 27, 2, 42, 27),
- 'followerCount': 7749420,
+ 'followerCount': 7750565,
  'screenName': 'KhloeKardashian',
  'statusId': 262021414452858883,
  'text': '@KourtneyKardash @KimKardashian Kim can be such a bitch!!! Don\'t you dare touch my "tickle me nuts hummingbirds"!!!! Go flick a dick',
@@ -208,7 +208,7 @@ T1
 ================================
 {'createdAt': '2012-10-26 20:18:22',
  'creationTime': datetime.datetime(2012, 10, 26, 20, 18, 22),
- 'followerCount': 7427400,
+ 'followerCount': 7429505,
  'screenName': 'ricky_martin',
  'statusId': 261924755429527553,
  'text': '@zoesaldana igualmente beba! Have a great weekend. Besos! Paz!',
@@ -221,7 +221,7 @@ T2
 ================================
 {'createdAt': '2012-10-26 20:15:47',
  'creationTime': datetime.datetime(2012, 10, 26, 20, 15, 47),
- 'followerCount': 363226,
+ 'followerCount': 363431,
  'screenName': 'zoesaldana',
  'statusId': 261924103404011523,
  'text': '@ricky_martin @RMrockz #FF !!! Yes! Happy Viernes ! :) http://t.co/mJNjHlQ8',
@@ -237,7 +237,7 @@ T1
 ================================
 {'createdAt': '2012-10-30 20:09:24',
  'creationTime': datetime.datetime(2012, 10, 30, 20, 9, 24),
- 'followerCount': 7376259,
+ 'followerCount': 7383268,
  'screenName': 'NiallOfficial',
  'statusId': 263372048687058944,
  'text': '@_Emma_Horan_ go on emma! Ya mad yoke!when ya comin over here!',
@@ -250,7 +250,7 @@ T2
 ================================
 {'createdAt': '2012-10-30 20:06:23',
  'creationTime': datetime.datetime(2012, 10, 30, 20, 6, 23),
- 'followerCount': 133083,
+ 'followerCount': 133156,
  'screenName': '_Emma_Horan_',
  'statusId': 263371289954246657,
  'text': '@NiallOfficial Have fun!! Enjoy every min of it!! :) Yeaaaaaaaaaaaaaaaaaah Buddyyyyyyyyy',
@@ -258,4 +258,33 @@ T2
  'toUserScreenName': 'NiallOfficial',
  'url': 'https://twitter.com/_Emma_Horan_/status/263371289954246657',
  'userId': '224447117'}
+
+================================
+Example No = 10
+================================
+T1
+================================
+{'createdAt': '2012-10-28 19:33:34',
+ 'creationTime': datetime.datetime(2012, 10, 28, 19, 33, 34),
+ 'followerCount': 6405558,
+ 'screenName': 'SHAQ',
+ 'statusId': 262638258062774272,
+ 'text': '@IAMTONYNEAL now',
+ 'toUserId': '18398615',
+ 'toUserScreenName': 'IAMTONYNEAL',
+ 'url': 'https://twitter.com/SHAQ/status/262638258062774272',
+ 'userId': 17461978}
+================================
+T2
+================================
+{'createdAt': '2012-10-28 19:33:02',
+ 'creationTime': datetime.datetime(2012, 10, 28, 19, 33, 2),
+ 'followerCount': 203843,
+ 'screenName': 'IAMTONYNEAL',
+ 'statusId': 262638123522084864,
+ 'text': '@SHAQ where u at square, when u in the 305?',
+ 'toUserId': 17461978,
+ 'toUserScreenName': 'SHAQ',
+ 'url': 'https://twitter.com/IAMTONYNEAL/status/262638123522084864',
+ 'userId': '18398615'}
 

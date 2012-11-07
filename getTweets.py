@@ -43,8 +43,8 @@ currUserIndex = h.getCurrUserIndex(currUserIndexFileName)
 
 writeCurrUser = open(currUserIndexFileName, "w")
 
-#skip ladygaga [she replies loyally to all her unknown fans :)]
-skipGaga = 1
+#skip ladygaga [she replies loyally to all her relatively unknown fans :)]
+skipGaga = 0
 
 #For each top user, get 100 status messages posted by user (will look for more if ten not found)
 for topUser in topUserList:

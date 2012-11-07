@@ -11,10 +11,10 @@ class getAPIHandle:
     def __init__(self):
         #Use different credentials if rate limit was hit and change IP
         #credFileName = "keys/credentials.key"
-        #credFileName = "keys/credentials2.key"
+        credFileName = "keys/credentials2.key"
         #credFileName = "keys/credentials3.key"
         #credFileName = "keys/credentials4.key"
-        credFileName = "keys/credentials5.key"
+        #credFileName = "keys/credentials5.key"
         #credFileName = "keys/credentials6.key"
         #credFileName = "keys/credentials7.key"
         credFile = open(credFileName, "r")
