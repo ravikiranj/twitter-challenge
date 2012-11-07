@@ -40,20 +40,23 @@ class helper:
                         currIndex = newIndex
         return currIndex
     
-    def checkCurrUserFileExists(self, fileName):
+    def checkCurrUserIndexFileExists(self, fileName):
         if(os.path.exists(fileName)):
             #do nothing
             dummy = 1
         else:
             #create empty file
-            open(fileName, 'w').close()
+            fh = open(fileName, 'w')
+            fh.write("0")
+            fh.close()
             
-    def getCurrUser(self, fileName):
-        currUser = ""
+    def getCurrUserIndex(self, fileName):
+        currUserIndex = 0 
         if(os.path.exists(fileName)):
             cUser = open(fileName, "r") 
             currUser = cUser.read()
-            currUser = currUser.rstrip()
+            if(currUser != ''):
+                currUserIndex = int(currUser.rstrip())
             cUser.close()
-        return currUser
+        return currUserIndex
 #end class

@@ -23,33 +23,34 @@ converseCount = 1
 #Exit Flag
 exitFlag = 0
 #maxCount
-maxCount = 2 
+maxCount = 2
 
 #Write results to file
 #Get existing conversation count in result file
 lastResultIndex = h.getLastResultIndex("result.txt")
 
 #override conversation counter
-converseCount = lastResultIndex
+converseCount = lastResultIndex + 1
 resultFileName = "result.txt"
-currUserFileName = "currUser.txt"
+currUserIndexFileName = "currUserIndex.txt"
 
 #Result file
 result = open(resultFileName, "a")
 #Store current user being processed so that we can resume
 #from this user once twitter rate limit is hit (350 per hr)
-h.checkCurrUserFileExists(currUserFileName)
-currUser = h.getCurrUser(currUserFileName)
+h.checkCurrUserIndexFileExists(currUserIndexFileName)
+currUserIndex = h.getCurrUserIndex(currUserIndexFileName)
 
-writeCurrUser = open(currUserFileName, "w")
+writeCurrUser = open(currUserIndexFileName, "w")
 
 #For each top user, get 100 status messages posted by user (will look for more if ten not found)
 for topUser in topUserList:
+    topUserIndex = topUserList.index(topUser)
     exceptionFlag = 0
+    
     #Skip if user already been processed -> workaround for resuming after twitter rate limit has exceeded
-    if(currUser != "" and topUser != currUser):
-        while(topUser != currUser):
-            continue
+    if(currUserIndex > topUserIndex):
+        continue
         
     try:
         #twitter allows 'since' param, but tweepy does not, so do a manual check for twoWeeksAgo condition
@@ -59,7 +60,7 @@ for topUser in topUserList:
         print "Exception = %s" % (e)
         if(hasattr(e, 'response') and hasattr(e.response, 'status') and (e.response.status == 400 or e.response.status == 401)):
             #Exit -> Rate limit exceeded or bad request
-            writeCurrUser.write(topUser)
+            writeCurrUser.write(str(topUserIndex))
             writeCurrUser.close()
             result.close()
             print "HTTP Status Code = %d" % (e.response.status)
@@ -111,10 +112,9 @@ for topUser in topUserList:
                 if(hasattr(e, 'response') and hasattr(e.response, 'status') and (e.response.status == 400 or e.response.status == 401)):
                     #Exit -> Rate limit exceeded or bad request
                     #Get next user
-                    topUserIndex = topUserList.index(topUser)
                     if(topUserIndex < len(topUser)-2):
-                        topUser = topUserList[topUserIndex+1]
-                    writeCurrUser.write(topUser)
+                        topUserIndex += 1
+                    writeCurrUser.write(str(topUserIndex))
                     writeCurrUser.close()
                     result.close()
                     print "HTTP Status Code = %d" % (e.response.status)
@@ -174,7 +174,7 @@ for topUser in topUserList:
     if(exitFlag):
         break
 #end outer loop
-print "Successfully found 10 conversations"
+print "Successfully found %d conversations" % (maxCount)
 print "Done"
 #Save current user
 writeCurrUser.write(topUser)
