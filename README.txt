@@ -35,3 +35,5 @@ The output of the program is written to "result.txt" which consists of details o
 *************************************
 The sample output of the program can be found in "result.txt" and the logged console output can be found in "consoleOutput.txt".
 When API rate limit is reached, the state is saved in "currUserIndex.txt".
+
+A detailed explanation of how the problem was solved is listed in "Solution.pdf"
