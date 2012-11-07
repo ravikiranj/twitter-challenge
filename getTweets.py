@@ -112,7 +112,7 @@ for topUser in topUserList:
                 if(hasattr(e, 'response') and hasattr(e.response, 'status') and (e.response.status == 400 or e.response.status == 401)):
                     #Exit -> Rate limit exceeded or bad request
                     #Get next user
-                    if(topUserIndex < len(topUser)-2):
+                    if(topUserIndex < len(topUser)-1):
                         topUserIndex += 1
                     writeCurrUser.write(str(topUserIndex))
                     writeCurrUser.close()
@@ -177,6 +177,8 @@ for topUser in topUserList:
 print "Successfully found %d conversations" % (maxCount)
 print "Done"
 #Save current user
-writeCurrUser.write(topUser)
+if(topUserIndex < len(topUser)-1):
+    topUserIndex += 1
+writeCurrUser.write(str(topUserIndex))
 writeCurrUser.close()
 result.close()
