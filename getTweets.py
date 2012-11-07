@@ -69,6 +69,7 @@ for topUser in topUserList:
                    or use different credentials" % (resultFileName)
             sys.exit(1)
         else:
+            #Sometimes resources were not found or lacked permission to fetch protected account, skip these
             exceptionFlag = 1
             pass
         
@@ -125,6 +126,7 @@ for topUser in topUserList:
                            limit was exceeded or use different credentials" % (resultFileName)
                     sys.exit(1)
                 else:
+                    #Sometimes resources were not found or lacked permission to fetch protected account, skip these
                     exceptionFlag = 1
                     pass
             
